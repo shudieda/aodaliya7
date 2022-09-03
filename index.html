@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .box {
+            width: 1125px;
+            overflow: hidden;
+            height: 2436px;
+        }
+
+        @font-face {
+            font-family: PingFang;
+            src: url("font/PingFang Heavy.ttf");
+        }
+        @font-face {
+            font-family: 英文;
+            src: url("font/cordiab.ttf");
+        }
+        @font-face {
+            font-family: 方正黑;
+            src: url("font/方正黑.ttf");
+        }
+
+        @font-face {
+            font-family: 苹方香港;
+            src: url("font/苹方香港.ttf");
+        }
+        @font-face {
+            font-family: 汉仪雅酷黑65W;
+            src: url("font/汉仪雅酷黑65W.ttf");
+        }
+        .ao1:hover {
+            background-image: url('img/1x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao1 img:hover{
+            opacity: 0;
+        }
+
+        .ao2:hover {
+            background-image: url('img/2x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao2 img:hover{
+            opacity: 0;
+        }
+
+        .ao3:hover {
+            background-image: url('img/3x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao3 img:hover{
+            opacity: 0;
+        }
+
+        .ao4:hover {
+            background-image: url('img/4x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao4 img:hover{
+            opacity: 0;
+        }
+
+        .ao5:hover {
+            background-image: url('img/5x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao5 img:hover{
+            opacity: 0;
+        }
+
+        .ao6:hover {
+            background-image: url('img/6x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao6 img:hover{
+            opacity: 0;
+        }
+
+        .ao7:hover {
+            background-image: url('img/7x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao7 img:hover{
+            opacity: 0;
+        }
+
+        .ao8:hover {
+            background-image: url('img/8x.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-size: 200px;
+            width: 200px;
+            height: 170px;
+            z-index: 9999;
+        }
+        .ao8 img:hover{
+            opacity: 0;
+        }
+
+    </style>
+</head>
+<body oncontextmenu=self.event.returnValue=false style="background-color: rgb(218,185,149)">
+<button class="save-img" onclick="savaData()"
+        style="color: rgb(218,185,149); position: absolute;border: none; padding:5px 5px 5px 5px;font-weight:550;background-color: transparent;border-radius:10px;margin-left:1300px; font-size: 35px;">保存图片
+</button>
+<div class="box">
+    <div style="background-image: url('img/aodaliya7.png');height: 2436px;width: 1125px;display: flex;position:relative;">
+
+        <div style="position: absolute;width: 1125px;text-align: center; top:567px;">
+            <div contenteditable class="" style="font-weight:600; font-family: 方正黑;display: inline-block; color: rgb(0,0,0);font-size: 84px;">-$</div>
+            <div contenteditable class="text7445" style="font-weight:600; font-family: 方正黑;display: inline-block; color: rgb(0,0,0);font-size: 84px;margin-left: -5px;">450.00</div>
+        </div>
+
+        <div contenteditable class="text7446" style="font-weight:600; font-family: 苹方香港;position:absolute;display: inline-block;width: 1125px;text-align: center; top:692px; margin-left: auto;color: rgb(0,0,0);font-size: 43px;">Transfer from Mr Yunpeng Shi Credit to Account</div>
+        <div contenteditable class="text7447" style="font-weight:500; font-family: 苹方香港;position:absolute;display: inline-block;width: 1125px;text-align: center;top:807px;color: rgb(69,69,69);font-size: 35px;">CREDIT TO ACCOUNT</div>
+        <div contenteditable class="text7448" style="font-weight:500; font-family: 苹方香港;position:absolute;display: inline-block;width: 1125px;text-align: center;top:941px;color: rgb(69,69,69);font-size: 35px;">Tue 22 Feb 2022</div>
+        <div contenteditable class="text7449" style="font-weight:500; font-family: 苹方香港;position:absolute;display: inline-block;width: 1125px;text-align: center;top:984px;color: rgb(69,69,69);font-size: 35px;">04:26 PM (Syd/Melb time)</div>
+
+        <div style="position: absolute;width: 1125px;text-align: center;top:1054px;">
+            <div contenteditable class="" style="font-weight:500; font-family: 苹方香港;display: inline-block;color: rgb(69,69,69);font-size: 35px;">Receipt No:</div>
+            <div contenteditable class="text7450" style="font-weight:500; font-family: 苹方香港;display: inline-block;color: rgb(69,69,69);font-size: 35px;margin-left: -5px;">N222224913271</div>
+        </div>
+
+        <div contenteditable class="text7451" style="font-weight:500; font-family: 苹方香港;position:absolute;display: inline-block;right: 105px;top:1302px;color: rgb(69,69,69);font-size: 42px;">Uncategorised</div>
+
+
+    </div>
+</div>
+
+<div style="position: absolute;left: 1150px;top: -100px;width: 1100px;height: 2000px;">
+
+    <div style="display: inline-block; position: absolute;right: 700px;top: 300px; font-size: 50px;">
+        <div class="textG53" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 45px;width: 800px;background-color: #FFFFFF;">450.00</div>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top: 450px; font-size: 50px;">
+        <div class="textG54" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 45px;width: 800px;background-color: #FFFFFF;">Transfer from Mr Yunpeng Shi Credit to Account</div>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:600px; font-size: 50px;">
+        <div class="textG55" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 45px;width: 800px;background-color: #FFFFFF;">CREDIT TO ACCOUNT</div>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:750px; font-size: 45px;">
+        <div class="textG56" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 50px;width: 800px;background-color: #FFFFFF;">Tue 22 Feb 2022</div>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:900px; font-size: 45px;">
+        <div class="textG57" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 50px;width: 800px;background-color: #FFFFFF;">04:26 PM (Syd/Melb time)</div>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:1050px; font-size: 45px;">
+        <div class="textG58" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 50px;width: 800px;background-color: #FFFFFF;">N222224913271</div>
+    </div>
+
+    <div style="display: inline-block; position: absolute;right: 700px;top:1200px; font-size: 45px;">
+        <div class="textG59" contenteditable
+             style="white-space: nowrap;overflow: hidden;display: inline-block;position: absolute;height: 100px;line-height: 100px; font-size: 50px;width: 800px;background-color: #FFFFFF;">Uncategorised</div>
+    </div>
+
+</div>
+<div style="position: absolute;left:2380px;top:150px;width: 500px;height: 2000px;">
+
+    <a class="ao1" href="http://sblaojiaoshu.com/aodaliya1" style="position: absolute; top:100px;left: 20px;">
+        <img src="img/1.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao2" href="http://sblaojiaoshu.com/aodaliya2" style="position: absolute; top:100px;left: 250px;">
+        <img src="img/2.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao3" href="http://sblaojiaoshu.com/aodaliya3" style="position: absolute; top:320px;left: 20px;">
+        <img src="img/3.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao4" href="http://sblaojiaoshu.com/aodaliya4" style="position: absolute; top:320px;left: 250px;">
+        <img src="img/4.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao5" href="http://sblaojiaoshu.com/aodaliya5" style="position: absolute; top:540px;left: 20px;">
+        <img src="img/5.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao6" href="http://sblaojiaoshu.com/aodaliya6" style="position: absolute; top:540px;left: 250px;">
+        <img src="img/6.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao7" href="http://sblaojiaoshu.com/aodaliya7" style="position: absolute; top:760px;left: 20px;">
+        <img src="img/7x.png" style="width: 200px; height: 170px;">
+    </a>
+
+    <a class="ao8" href="http://sblaojiaoshu.com/aodaliya8" style="position: absolute; top:760px;left: 250px;">
+        <img src="img/8.png" style="width: 200px; height: 170px;">
+    </a>
+</div>
+<!-- 引入 html2canvas -->
+<script src="html2canvas.js"></script>
+<!-- 引入自行封装的截图插件 -->
+<script src="screen-shot-az.js"></script>
+
+<script>
+    var ua = navigator.userAgent;
+    if(ua !== "Mozilla/5.0 (Windows NT 10.0; Win64; x64; ed)"){
+        document.querySelector("body").style="display: none;"
+    }
+</script>
+
+<script>
+    // 获取组件盒子
+    let box = document.querySelector('.box')
+
+    // 获取保存按钮
+    let saveImg = document.querySelector('.save-img')
+
+    // 点击保存按钮
+    saveImg.addEventListener('click', () => {
+        saveImgFn('微信图片')
+    })
+
+    // 保存图片的方法
+    async function saveImgFn(downloadName) {
+        // 获取需要转换的dom
+        // html2canvas(document.querySelector('.bbx'))
+        //     .then(canvas => {
+        //         let imgUrl = canvas.toDataURL('image/jpg')
+        //         let image = document.createElement('img')
+        //         image.src = imgUrl
+        //         let a = document.createElement('a')
+        //         a.href = imgUrl
+        //         a.download = name // 自定义名称
+        //         a.click()
+        //     })
+
+        // 截图模块
+        let canvasBox = document.querySelector('.box')
+        // 使用自定义方法进行转换
+        await getHtmlImage({canvasBox,downloadName})
+
+    }
+
+</script>
+
+<script>
+
+    let text1 = document.querySelector(".text7445")
+    let text2 = document.querySelector(".textG53")
+
+    formatAddComma(text2, text1)
+
+    // 添加逗号 - 转格式
+    function formatAddComma(ele11, ele12) {
+        ele11.addEventListener('input', () => {
+            const addCommas = (num) => num.toString().replace(/(\d)(?=(\d{3})+(?!\d))/g, '$1,')
+            ele12.innerText = addCommas(ele11.innerText)
+        })
+    }
+</script>
+
+<script>
+
+    let text3 = document.querySelector(".text7446")
+    let text4 = document.querySelector(".textG54")
+
+    twoWayBinding(text3, text4)
+    twoWayBinding(text4, text3)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.innerText
+        })
+    }
+</script>
+
+<script>
+
+    let text5 = document.querySelector(".text7447")
+    let text6 = document.querySelector(".textG55")
+
+    twoWayBinding(text5, text6)
+    twoWayBinding(text6, text5)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.innerText
+        })
+    }
+</script>
+
+<script>
+
+    let text7 = document.querySelector(".text7448")
+    let text8 = document.querySelector(".textG56")
+
+    twoWayBinding(text7, text8)
+    twoWayBinding(text8, text7)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.innerText
+        })
+    }
+</script>
+
+<script>
+
+    let text9 = document.querySelector(".text7449")
+    let text10 = document.querySelector(".textG57")
+
+    twoWayBinding(text9, text10)
+    twoWayBinding(text10, text9)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.innerText
+        })
+    }
+</script>
+
+<script>
+
+    let text11 = document.querySelector(".text7450")
+    let text12 = document.querySelector(".textG58")
+
+    twoWayBinding(text11, text12)
+    twoWayBinding(text12, text11)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.innerText
+        })
+    }
+</script>
+
+<script>
+
+    let text13 = document.querySelector(".text7451")
+    let text14 = document.querySelector(".textG59")
+
+    twoWayBinding(text13, text14)
+    twoWayBinding(text14, text13)
+
+    function twoWayBinding(ele1, ele2) {
+        ele1.addEventListener('input', () => {
+            ele2.innerText = ele1.innerText
+        })
+    }
+</script>
+
+<script>
+    // 需要保存数据的元素
+
+    let text7445 = document.querySelector('.text7445')
+    let text7446 = document.querySelector('.text7446')
+    let text7447 = document.querySelector('.text7447')
+    let text7448 = document.querySelector('.text7448')
+    let text7449 = document.querySelector('.text7449')
+    let text7450 = document.querySelector('.text7450')
+    let text7451 = document.querySelector('.text7451')
+
+
+
+
+    let textG53 = document.querySelector('.textG53')
+    let textG54 = document.querySelector('.textG54')
+    let textG55 = document.querySelector('.textG55')
+    let textG56 = document.querySelector('.textG56')
+    let textG57 = document.querySelector('.textG57')
+    let textG58 = document.querySelector('.textG58')
+    let textG59 = document.querySelector('.textG59')
+    getData()
+
+    // 页面初始化获取文字
+    function getData() {
+
+        let localText7445 = localStorage.getItem('text7445')
+        let localText7446 = localStorage.getItem('text7446')
+        let localText7447 = localStorage.getItem('text7447')
+        let localText7448 = localStorage.getItem('text7448')
+        let localText7449 = localStorage.getItem('text7449')
+        let localText7450 = localStorage.getItem('text7450')
+        let localText7451 = localStorage.getItem('text7451')
+
+
+        let localTextG53 = localStorage.getItem('textG53')
+        let localTextG54 = localStorage.getItem('textG54')
+        let localTextG55 = localStorage.getItem('textG55')
+        let localTextG56 = localStorage.getItem('textG56')
+        let localTextG57 = localStorage.getItem('textG57')
+        let localTextG58 = localStorage.getItem('textG58')
+        let localTextG59 = localStorage.getItem('textG59')
+
+
+
+        if (localText7445) text7445.innerText = localText7445
+        if (localText7446) text7446.innerText = localText7446
+        if (localText7447) text7447.innerText = localText7447
+        if (localText7448) text7448.innerText = localText7448
+        if (localText7449) text7449.innerText = localText7449
+        if (localText7450) text7450.innerText = localText7450
+        if (localText7451) text7451.innerText = localText7451
+
+
+
+        if (localTextG53) textG53.innerText = localTextG53
+        if (localTextG54) textG54.innerText = localTextG54
+        if (localTextG55) textG55.innerText = localTextG55
+        if (localTextG56) textG56.innerText = localTextG56
+        if (localTextG57) textG57.innerText = localTextG57
+        if (localTextG58) textG58.innerText = localTextG58
+        if (localTextG59) textG59.innerText = localTextG59
+    }
+
+
+    // 保存数据的方法
+    function savaData() {
+        localStorage.setItem('text7445', text7445.innerText)
+        localStorage.setItem('text7446', text7446.innerText)
+        localStorage.setItem('text7447', text7447.innerText)
+        localStorage.setItem('text7448', text7448.innerText)
+        localStorage.setItem('text7449', text7449.innerText)
+        localStorage.setItem('text7450', text7450.innerText)
+        localStorage.setItem('text7451', text7451.innerText)
+
+
+
+        localStorage.setItem('textG53', textG53.innerText)
+        localStorage.setItem('textG54', textG54.innerText)
+        localStorage.setItem('textG55', textG55.innerText)
+        localStorage.setItem('textG56', textG56.innerText)
+        localStorage.setItem('textG57', textG57.innerText)
+        localStorage.setItem('textG58', textG58.innerText)
+        localStorage.setItem('textG59', textG59.innerText)
+    }
+
+</script>
+</body>
+</html>
